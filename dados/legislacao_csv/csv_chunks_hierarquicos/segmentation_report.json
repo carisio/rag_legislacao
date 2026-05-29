@@ -1,0 +1,406 @@
+{
+  "summary": {
+    "timestamp": "2026-05-25T12:49:11",
+    "input_dir": "../novas_normas_20260420/lexml_manual_20260525",
+    "output_dir": "../novas_normas_20260420/lexml_manual_20260525/segmentation",
+    "stylesheet": "/work/doutorado/artigos/RAG_evaluation/lexml-parser-projeto-lei/scripts/GeraCSVporArtigoPorAgrupador.xsl",
+    "engine": "saxonche / SaxonC-HE",
+    "saxon_version": "SaxonC-HE 12.9 from Saxonica",
+    "total_documents": 43,
+    "success": 43,
+    "failure": 0,
+    "skipped": 0,
+    "success_rate_pct": 100.0,
+    "total_rows": 9839,
+    "wall_clock_s": 4.7
+  },
+  "documents": [
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_10480_2020.xml",
+      "stem": "decreto_10480_2020",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_10480_2020.csv",
+      "rows": 131,
+      "duration_ms": 29.6,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_11713_2023.xml",
+      "stem": "decreto_11713_2023",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_11713_2023.csv",
+      "rows": 119,
+      "duration_ms": 12.7,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_12002_2024.anexo1.xml",
+      "stem": "decreto_12002_2024",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_12002_2024/decreto_12002_2024.anexo1.csv",
+      "rows": 174,
+      "duration_ms": 40.5,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_12002_2024.xml",
+      "stem": "decreto_12002_2024",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_12002_2024/decreto_12002_2024.csv",
+      "rows": 641,
+      "duration_ms": 186.4,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_12308_2024.xml",
+      "stem": "decreto_12308_2024",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_12308_2024.csv",
+      "rows": 76,
+      "duration_ms": 4.6,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_2338_1997.anexo1.xml",
+      "stem": "decreto_2338_1997",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_2338_1997/decreto_2338_1997.anexo1.csv",
+      "rows": 386,
+      "duration_ms": 73.3,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_2338_1997.anexo2.xml",
+      "stem": "decreto_2338_1997",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_2338_1997/decreto_2338_1997.anexo2.csv",
+      "rows": 0,
+      "duration_ms": 0.7,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_2338_1997.xml",
+      "stem": "decreto_2338_1997",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_2338_1997/decreto_2338_1997.csv",
+      "rows": 8,
+      "duration_ms": 0.7,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_2615_1998.anexo1.xml",
+      "stem": "decreto_2615_1998",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_2615_1998/decreto_2615_1998.anexo1.csv",
+      "rows": 169,
+      "duration_ms": 16.4,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_2615_1998.xml",
+      "stem": "decreto_2615_1998",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_2615_1998/decreto_2615_1998.csv",
+      "rows": 4,
+      "duration_ms": 0.6,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_4901_2003.xml",
+      "stem": "decreto_4901_2003",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_4901_2003.csv",
+      "rows": 31,
+      "duration_ms": 2.3,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_52795_1963.anexo1.xml",
+      "stem": "decreto_52795_1963",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_52795_1963/decreto_52795_1963.anexo1.csv",
+      "rows": 932,
+      "duration_ms": 439.4,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_52795_1963.xml",
+      "stem": "decreto_52795_1963",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_52795_1963/decreto_52795_1963.csv",
+      "rows": 4,
+      "duration_ms": 0.7,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_5396_2005.xml",
+      "stem": "decreto_5396_2005",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_5396_2005.csv",
+      "rows": 19,
+      "duration_ms": 1.4,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_5602_2005.xml",
+      "stem": "decreto_5602_2005",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_5602_2005.csv",
+      "rows": 42,
+      "duration_ms": 6.0,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_5798_2006.xml",
+      "stem": "decreto_5798_2006",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_5798_2006.csv",
+      "rows": 112,
+      "duration_ms": 8.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_7724_2012.anexo1.xml",
+      "stem": "decreto_7724_2012",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_7724_2012/decreto_7724_2012.anexo1.csv",
+      "rows": 0,
+      "duration_ms": 0.4,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_7724_2012.xml",
+      "stem": "decreto_7724_2012",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_7724_2012/decreto_7724_2012.csv",
+      "rows": 456,
+      "duration_ms": 97.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_9432_2018.xml",
+      "stem": "decreto_9432_2018",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_9432_2018.csv",
+      "rows": 54,
+      "duration_ms": 3.1,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/decreto_9612_2018.xml",
+      "stem": "decreto_9612_2018",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/decreto_9612_2018.csv",
+      "rows": 125,
+      "duration_ms": 10.7,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/portaria_mjsp_502_2021.xml",
+      "stem": "portaria_mjsp_502_2021",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/portaria_mjsp_502_2021.csv",
+      "rows": 476,
+      "duration_ms": 104.2,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_396_2005.anexo1.xml",
+      "stem": "res_anatel_396_2005",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_396_2005/res_anatel_396_2005.anexo1.csv",
+      "rows": 30,
+      "duration_ms": 2.6,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_396_2005.anexo2.xml",
+      "stem": "res_anatel_396_2005",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_396_2005/res_anatel_396_2005.anexo2.csv",
+      "rows": 187,
+      "duration_ms": 322.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_396_2005.anexo3.xml",
+      "stem": "res_anatel_396_2005",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_396_2005/res_anatel_396_2005.anexo3.csv",
+      "rows": 71,
+      "duration_ms": 3.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_396_2005.anexo4.xml",
+      "stem": "res_anatel_396_2005",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_396_2005/res_anatel_396_2005.anexo4.csv",
+      "rows": 57,
+      "duration_ms": 2.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_396_2005.xml",
+      "stem": "res_anatel_396_2005",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_396_2005/res_anatel_396_2005.csv",
+      "rows": 8,
+      "duration_ms": 0.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_589_2012.anexo1.xml",
+      "stem": "res_anatel_589_2012",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_589_2012/res_anatel_589_2012.anexo1.csv",
+      "rows": 250,
+      "duration_ms": 30.6,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_589_2012.anexo2.xml",
+      "stem": "res_anatel_589_2012",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_589_2012/res_anatel_589_2012.anexo2.csv",
+      "rows": 4,
+      "duration_ms": 0.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_589_2012.xml",
+      "stem": "res_anatel_589_2012",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_589_2012/res_anatel_589_2012.csv",
+      "rows": 4,
+      "duration_ms": 0.7,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_612_2015.anexo1.xml",
+      "stem": "res_anatel_612_2015",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_612_2015/res_anatel_612_2015.anexo1.csv",
+      "rows": 2159,
+      "duration_ms": 1868.6,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_612_2015.xml",
+      "stem": "res_anatel_612_2015",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_612_2015/res_anatel_612_2015.csv",
+      "rows": 4,
+      "duration_ms": 1.2,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_671_2016.anexo1.xml",
+      "stem": "res_anatel_671_2016",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_671_2016/res_anatel_671_2016.anexo1.csv",
+      "rows": 402,
+      "duration_ms": 80.0,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_671_2016.xml",
+      "stem": "res_anatel_671_2016",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_671_2016/res_anatel_671_2016.csv",
+      "rows": 4,
+      "duration_ms": 0.9,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_740_2020.anexo1.xml",
+      "stem": "res_anatel_740_2020",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_740_2020/res_anatel_740_2020.anexo1.csv",
+      "rows": 176,
+      "duration_ms": 20.1,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_740_2020.xml",
+      "stem": "res_anatel_740_2020",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_740_2020/res_anatel_740_2020.csv",
+      "rows": 4,
+      "duration_ms": 0.6,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_765_2023.anexo1.xml",
+      "stem": "res_anatel_765_2023",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_765_2023/res_anatel_765_2023.anexo1.csv",
+      "rows": 564,
+      "duration_ms": 144.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_765_2023.xml",
+      "stem": "res_anatel_765_2023",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_765_2023/res_anatel_765_2023.csv",
+      "rows": 108,
+      "duration_ms": 17.0,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_777_2025.anexo1.xml",
+      "stem": "res_anatel_777_2025",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_777_2025/res_anatel_777_2025.anexo1.csv",
+      "rows": 1435,
+      "duration_ms": 855.1,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anatel_777_2025.xml",
+      "stem": "res_anatel_777_2025",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anatel_777_2025/res_anatel_777_2025.csv",
+      "rows": 104,
+      "duration_ms": 13.1,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anpd_2_2022.anexo1.xml",
+      "stem": "res_anpd_2_2022",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anpd_2_2022/res_anpd_2_2022.anexo1.csv",
+      "rows": 79,
+      "duration_ms": 6.6,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anpd_2_2022.xml",
+      "stem": "res_anpd_2_2022",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anpd_2_2022/res_anpd_2_2022.csv",
+      "rows": 4,
+      "duration_ms": 0.8,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anpd_4_2022.anexo1.xml",
+      "stem": "res_anpd_4_2022",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anpd_4_2022/res_anpd_4_2022.anexo1.csv",
+      "rows": 216,
+      "duration_ms": 27.5,
+      "error": null
+    },
+    {
+      "source": "../novas_normas_20260420/lexml_manual_20260525/res_anpd_4_2022.xml",
+      "stem": "res_anpd_4_2022",
+      "status": "success",
+      "output": "../novas_normas_20260420/lexml_manual_20260525/segmentation/res_anpd_4_2022/res_anpd_4_2022.csv",
+      "rows": 10,
+      "duration_ms": 1.2,
+      "error": null
+    }
+  ]
+}
