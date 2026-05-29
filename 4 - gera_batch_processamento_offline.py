@@ -12,7 +12,7 @@ modelos_para_gerar = ["sabia-4-2026-01-06",
                       "gpt-5.4-mini-2026-03-17",
                       "gpt-5.4-nano-2026-03-17"]
 
-num_chunks_rag_para_gerar = [5]
+num_chunks_rag_para_gerar = [1]
 
 # Arquivo jsonl que terá o batch
 nome_input_batch_file = "./dados/experimentos/inputs/input_batch_{modelo}_{experimento}.jsonl"
@@ -43,7 +43,7 @@ def get_msg_usuario(questao_formatada, query_emb, index, emb, num_chunks_rag):
     if num_chunks_rag is None:
         return questao_formatada
     else:
-        chunks_proximos = pesquisar_normalizado(query_emb, index, emb, 5)
+        chunks_proximos = pesquisar_normalizado(query_emb, index, emb, num_chunks_rag)
         chunks_proximos_numerados = [
             f"{i+1}. {chunks_proximos[i]['texto']}"
             for i in range(0, len(chunks_proximos))
@@ -89,7 +89,7 @@ def gerar_arquivos_experimentos(index=None, emb=None, tipo_indice='', num_chunks
                             {"role": "system", "content": msg_sistema},
                             {"role": "user", "content": msg_usuario}
                         ],
-                        nome_prop_max_tokens: 10
+                        nome_prop_max_tokens: 1000
                     }
                 }
         
