@@ -12,7 +12,7 @@ modelos_para_gerar = ["sabia-4-2026-01-06",
                       "gpt-5.4-mini-2026-03-17",
                       "gpt-5.4-nano-2026-03-17"]
 
-num_chunks_rag_para_gerar = [1]
+num_chunks_rag_para_gerar = [10]
 
 # Arquivo jsonl que terá o batch
 nome_input_batch_file = "./dados/experimentos/inputs/input_batch_{modelo}_{experimento}.jsonl"
